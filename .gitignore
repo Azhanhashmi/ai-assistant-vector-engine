@@ -1,18 +1,5 @@
-# Node
 node_modules/
-npm-debug.log
-
-# Env files
+backend/node_modules/
+frontend/node_modules/
 .env
-
-# Build / binaries
 *.exe
-*.out
-*.o
-
-# OS junk
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
