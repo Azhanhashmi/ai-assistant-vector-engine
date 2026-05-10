@@ -56,34 +56,6 @@ This pattern is called RAG (Retrieval Augmented Generation). Instead of the LLM 
 
 ---
 
-## Project Structure
-MyAiAssistant/
-├── cpp-engine/
-│   ├── src/
-│   │   └── hnsw.cpp          # Custom HNSW vector search engine
-│   └── hnsw_engine.exe       # Compiled binary (Windows)
-├── backend/
-│   ├── engine.js             # Bridge: Node.js ↔ C++ process
-│   ├── embeddings.js         # Ollama text → vector
-│   ├── store.js              # In-memory document store
-│   ├── ingest.js             # PDF/TXT parsing and chunking
-│   ├── rag.js                # RAG pipeline: search + LLM
-│   ├── index.js              # Express server + all endpoints
-│   └── package.json
-└── frontend/
-├── src/
-│   ├── components/
-│   │   ├── ChatView.tsx       # Chat UI
-│   │   ├── TrainingView.tsx   # Memory input + file upload
-│   │   ├── MemoryGraph.tsx    # D3.js vector graph
-│   │   └── ui/
-│   │       └── Starfield.tsx  # Canvas starfield background
-│   ├── lib/
-│   │   └── api.ts             # Backend API calls
-│   └── App.tsx
-└── package.json
----
-
 ## Prerequisites
 
 - **Node.js** v18+
