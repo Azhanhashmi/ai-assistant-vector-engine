@@ -175,7 +175,7 @@ The more you feed it, the smarter it gets about YOUR life and YOUR knowledge.
 
 ## Built by
 
-Azhan Hashmi — BCA student transitioning from arts into AI engineering.
+Azhan Hashmi 
 
 This project is a portfolio-level demonstration of understanding how vector databases, RAG pipelines, and local LLMs work at a systems level — not just calling an API.
 
